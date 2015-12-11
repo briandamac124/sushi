@@ -1,0 +1,106 @@
+
+body {
+    background-image: url("http://i.imgur.com/1mgyjYv.png");
+}
+
+h1{
+	text-align: center;
+}	
+h1{
+	font-style: Yu Mincho;
+}
+
+h1 {
+ 
+    border-style: double;
+    border-width: 15px;
+}
+
+p{
+
+  font-style: Calibri;
+}
+/* ^Header^ */
+
+/* ^ Navegation Bar ^ */
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 0px;
+	background-color: 0;
+
+}
+
+li a{
+	display: block;
+	color:#111;
+	padding: 8px 0 8px 16px;
+	text-decoration: none;
+}
+
+/*Change the link color on hover */
+li a:hover{
+	background-color: grey;
+	color:Black;
+}
+</style>
+
+ <ul>
+ 	  <li><a href="main.html"> Home </a></li>
+      <li><a href="Menu.html"> Menu </a></li>
+      <li><a href="Catering.html"> Catering</a></li>
+
+    </ul>
+/*slideshow*/
+/* USUAL STUFF */
+body { margin:10px auto; text-align:center; }
+.content { max-width:800px;text-align:left; margin:auto; }
+
+/* THE DIV */
+.simple-ss {
+  width:800px;
+  height:250px;
+  background-color:red;
+  margin:auto;
+  background-image:url("http://imageslidermaker.com/example.html?l=c&b=w");
+  background-position:0;
+  background-repeat:no-repeat;
+  background-size:cover;
+
+/* ANIMATING STUFF */
+  animation-name: slide;
+  animation-duration: 13s;
+  animation-direction: normal;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+/* NOTE CODEPEN AUTOGENERATING -PREFIXES */
+@keyframes slide {
+  0% {background-position:0 0;}
+  16.66% {background-position:0 0;}
+  33.32% {background-position:-800px 0;}
+  49.98% {background-position:-800px 0;}
+  66.64% {background-position:-1600px 0;}
+  83.30% {background-position:-1600px 0;}
+  100% {background-position:0 0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

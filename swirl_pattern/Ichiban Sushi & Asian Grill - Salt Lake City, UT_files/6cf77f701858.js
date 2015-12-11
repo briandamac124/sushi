@@ -1,0 +1,1 @@
+window.onload=function(){windowProxy=new Porthole.WindowProxy(host+"/porthole_proxy.html");windowProxy.addEventListener(function(a){a.origin===host&&"getIdentity"===a.data.type&&windowProxy.post({type:"getIdentity",payload:identity},host)})};
